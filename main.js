@@ -1,5 +1,5 @@
 //let connection = new WebSocket('ws://localhost:8080');
-let connection = new WebSocket('ws://kimyou1994-itp405-lab5.herokuapp.com/docs');
+let connection = new WebSocket('ws://kimyou1994-itp405-lab5-node.herokuapp.com');
 connection.onopen = () => {
 	console.log('connected from the frontend');
 }
